@@ -1,0 +1,3 @@
+tk
+opencv-python
+qrcode[pil]
