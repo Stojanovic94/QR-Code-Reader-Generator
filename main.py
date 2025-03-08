@@ -127,7 +127,7 @@ first_canvas.create_window(410, 390, window=generate_button)
 image_label2 = Label(root)
 second_canvas.create_window(250, 150, window=image_label2)
 
-# Koristimo Entry widget za detektovane podatke radi lakog kopiranja
+# Entry widget za detektovane podatke radi lakog kopiranja
 detected_data_entry = ttk.Entry(root, width=40, style='TEntry')
 second_canvas.create_window(200, 300, window=detected_data_entry)
 
