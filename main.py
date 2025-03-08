@@ -131,7 +131,7 @@ second_canvas.create_window(250, 150, window=image_label2)
 detected_data_entry = ttk.Entry(root, width=40, style='TEntry')
 second_canvas.create_window(200, 300, window=detected_data_entry)
 
-# Dugme za kopiranje odmah pored Entry widgeta
+# Dugme za kopiranje 
 copy_button = ttk.Button(root, text='Copy', style='TButton', command=copy_text)
 second_canvas.create_window(400, 300, window=copy_button)
 
